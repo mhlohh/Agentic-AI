@@ -1,0 +1,11 @@
+The Problem: The "Do-It-All" Agent
+
+Single agents can do a lot. But what happens when the task gets complex? A single "monolithic" agent that tries to do research, writing, editing, and fact-checking all at once becomes a problem. Its instruction prompt gets long and confusing. It's hard to debug (which part failed?), difficult to maintain, and often produces unreliable results.
+
+The Solution: A Team of Specialists
+
+Instead of one "do-it-all" agent, we can build a multi-agent system. This is a team of simple, specialized agents that collaborate, just like a real-world team. Each agent has one clear job (e.g., one agent only does research, another only writes). This makes them easier to build, easier to test, and much more powerful and reliable when working together.
+
+To learn more, check out the documentation related to LLM agents in ADK.
+
+Architecture: Single Agent vs Multi-Agent Team

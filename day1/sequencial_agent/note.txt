@@ -1,0 +1,14 @@
+🚥 Section 3: Sequential Workflows - The Assembly Line
+The Problem: Unpredictable Order
+
+The previous multi-agent system worked, but it relied on a detailed instruction prompt to force the LLM to run steps in order. This can be unreliable. A complex LLM might decide to skip a step, run them in the wrong order, or get "stuck," making the process unpredictable.
+
+The Solution: A Fixed Pipeline
+
+When you need tasks to happen in a guaranteed, specific order, you can use a SequentialAgent. This agent acts like an assembly line, running each sub-agent in the exact order you list them. The output of one agent automatically becomes the input for the next, creating a predictable and reliable workflow.
+
+Use Sequential when: Order matters, you need a linear pipeline, or each step builds on the previous one.
+
+To learn more, check out the documentation related to sequential agents in ADK.
+
+Architecture: Blog Post Creation Pipeline

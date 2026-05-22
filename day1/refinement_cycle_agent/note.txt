@@ -1,0 +1,14 @@
+➰ Section 5: Loop Workflows - The Refinement Cycle
+The Problem: One-Shot Quality
+
+All the workflows we've seen so far run from start to finish. The SequentialAgent and ParallelAgent produce their final output and then stop. This 'one-shot' approach isn't good for tasks that require refinement and quality control. What if the first draft of our story is bad? We have no way to review it and ask for a rewrite.
+
+The Solution: Iterative Refinement
+
+When a task needs to be improved through cycles of feedback and revision, you can use a LoopAgent. A LoopAgent runs a set of sub-agents repeatedly until a specific condition is met or a maximum number of iterations is reached. This creates a refinement cycle, allowing the agent system to improve its own work over and over.
+
+Use Loop when: Iterative improvement is needed, quality refinement matters, or you need repeated cycles.
+
+To learn more, check out the documentation related to loop agents in ADK.
+
+Architecture: Story Writing & Critique Loop
